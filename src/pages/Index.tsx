@@ -188,7 +188,7 @@ const Index = () => {
       <div className="min-h-screen bg-white flex items-center justify-center p-4">
         <Card className="w-full max-w-md p-8 shadow-sm border border-gray-100">
           <div className="mb-8 text-center">
-            <h1 className="text-3xl font-light text-gray-900 mb-2">Менеджер контактов</h1>
+            <h1 className="text-3xl font-light text-gray-900 mb-2">Скам 2.0</h1>
             <p className="text-sm text-gray-500">Управляйте вашими связями</p>
           </div>
 
@@ -258,7 +258,7 @@ const Index = () => {
       <header className="bg-white border-b border-gray-100 sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <h1 className="text-xl font-light text-gray-900">Менеджер контактов</h1>
+            <h1 className="text-xl font-light text-gray-900">Скам 2.0</h1>
             
             <div className="flex items-center gap-4">
               <span className="text-sm text-gray-600">{user?.name}</span>
