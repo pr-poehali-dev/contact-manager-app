@@ -1,0 +1,28 @@
+{
+  "tests": [
+    {
+      "name": "Search users returns array",
+      "method": "POST",
+      "path": "/",
+      "headers": {
+        "X-User-Token": "test-token"
+      },
+      "body": {
+        "action": "search",
+        "query": "test"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "results": [
+          {
+            "id": 2,
+            "email": "test2@example.com",
+            "name": "Test User",
+            "avatar_url": null
+          }
+        ]
+      },
+      "bodyMatcher": "exact"
+    }
+  ]
+}
